@@ -16,7 +16,7 @@ int rem_time,completed_time;
 
 int quant_time; // time quantum
 
-main()
+int main()
 {
 int n,i,j,k;
 float avgWaitTime=0.0,avgTurnAroundTime=0.0;
@@ -44,6 +44,7 @@ scanf("%d",&quant_time);
 
 printf("\n name start end busrt rem compl");
 /* for first process start and the wait time to be 0 */
+
 j=0;
 
 fs=p[j].st_time=0;
@@ -119,4 +120,7 @@ avgWaitTime=(float)totalWaitTime/n;
 avgTurnAroundTime=(float)totalTurnAroundTime/n;
 printf("\nAverage waiting time %f",avgWaitTime);
 printf("\nAverage turn around time %f",avgTurnAroundTime);
+
+
+return 0;
 }
