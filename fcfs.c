@@ -49,7 +49,7 @@ printf("\n\n Name Burst Start End Wait Time\n");
 for(k=0;k<n;k++)
     printf("\n%s \t%d \t%d \t%d \t%d",p[k].pName,p[k].ex_time,p[k].st_time,p[k].end_time,p[k].wt_time);
 
-printf("\nAverage Waiting Time %f",avgwaittime);
+    printf("\nAverage Waiting Time %f",avgwaittime);
 printf("\n Average Turn Around Time %f",avgTurnAroundTime);
 
 return 0;
